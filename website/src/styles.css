@@ -1,0 +1,35 @@
+.task-list {
+    max-width: 300px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin: 5px 0;
+    background: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background: darkred;
+  }
+  
